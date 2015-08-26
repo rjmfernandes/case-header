@@ -1,0 +1,7 @@
+<webscript>
+    <shortname>Case Header</shortname>
+    <description>Returns the Case Header for the Content Type</description>
+    <url>/caseheader/{path}</url>
+    <authentication>user</authentication>
+    <format default="html"></format>
+</webscript>

@@ -1,0 +1,38 @@
+<extension>
+    <modules>
+        <module>
+            <id>Case Header</id>
+            <auto-deploy>true</auto-deploy>  
+            <components>
+                <component>
+                    <region-id>documentlist_v2</region-id>
+                    <source-id>repository</source-id>
+                    <scope>template</scope>
+                    <sub-components>
+                        <sub-component id="Case_Header_New_Content" index="26">
+                            <url>/rb/case-header</url>
+                        </sub-component>
+                    </sub-components>
+                </component>
+                <component>
+                    <region-id>documentlist_v2</region-id>
+                    <source-id>documentlibrary</source-id>
+                    <scope>template</scope>
+                    <sub-components>
+                        <sub-component id="Case_Header_New_Content" index="26">
+                            <url>/rb/case-header</url>
+                        </sub-component>
+                    </sub-components>
+                </component>
+            </components>
+            <!--<customizations>
+              <customization>
+                 <targetPackageRoot>org.alfresco</targetPackageRoot>
+                 <dependencies>
+                    <js>globalstrap-standalone.js</js>
+                 </dependencies>
+              </customization>
+           </customizations>-->
+        </module>
+    </modules>
+</extension>

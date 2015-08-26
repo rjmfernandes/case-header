@@ -17,19 +17,4 @@
     limitations under the License.
 -->
 <beans>
-
-    <!-- A simple class that is initialized by Spring -->
-    <bean id="org.alfresco.exampleBean" class="org.alfresco.demoamp.Demo" init-method="init" />
-
-    <!-- A simple module component that will be executed once -->
-    <bean id="org.alfresco.exampleComponent" class="org.alfresco.demoamp.DemoComponent" parent="module.baseComponent" >
-        <property name="moduleId" value="${project.artifactId}" />  <!-- See module.properties -->
-        <property name="name" value="exampleComponent" />
-        <property name="description" value="A demonstration component" />
-        <property name="sinceVersion" value="2.0" />
-        <property name="appliesFromVersion" value="2.0" />
-        <property name="nodeService" ref="NodeService" />
-        <property name="nodeLocatorService" ref="nodeLocatorService" />
-    </bean>
-    
 </beans>

@@ -34,7 +34,7 @@
              for embedded run, defaults to the 'local' environment. See SDK Parent POM for more info.
         <env>local</env>
         -->
-        <alfresco.version>5.0.1</alfresco.version>
+        <alfresco.version>5.0.1</alfresco.version> 
     </properties>
 
     <!-- Here we realize the connection with the Alfresco selected platform 
