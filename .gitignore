@@ -8,6 +8,8 @@
 .settings/
 target/
 bin/
+alf_data_dev/
+tomcat/
 
 # Package Files #
 *.jar
