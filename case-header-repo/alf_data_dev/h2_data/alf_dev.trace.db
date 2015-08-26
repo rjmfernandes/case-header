@@ -1,6 +1,0 @@
-08-26 17:57:15 jdbc[11]: exception
-org.h2.jdbc.JdbcSQLException: Table "ALF_CONTENT_URL" not found; SQL statement:
-DROP TABLE alf_content_url [42102-185]
-08-26 17:57:15 jdbc[11]: exception
-org.h2.jdbc.JdbcSQLException: Table "ACT_RU_TASK" not found; SQL statement:
-select min(id_) from ACT_RU_TASK [42102-185]
